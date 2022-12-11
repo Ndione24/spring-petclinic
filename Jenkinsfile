@@ -29,9 +29,21 @@ pipeline {
 
          stage("Deploy"){
                     steps{
-                      echo "Deploy"
+                      echo "Deploy to nexus"
                     }
                 }
 
+
+           stage("Test "){
+                            steps{
+                              echo "Deploy to nexus"
+                            }
+                        }
+
+           stage("Sonarqube"){
+                               steps{
+                                 echo "Deploy to nexus"
+                               }
+                           }
     }
 }
