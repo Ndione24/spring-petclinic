@@ -36,13 +36,13 @@ pipeline {
 
            stage("Test "){
                             steps{
-                              echo "Deploy to nexus"
+                              echo "Run test "
                             }
                         }
 
            stage("Sonarqube"){
                                steps{
-                                 echo "Deploy to nexus"
+                                 echo "Ja"
                                }
                            }
     }
